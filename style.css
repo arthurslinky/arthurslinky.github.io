@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-   font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 .flex{
     display: flex;
@@ -21,3 +21,28 @@ header > a{
 header > a:hover{
     color: slateblue;
 }
+#weedgirl{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    max-width: 125px;
+    transform:rotate3d(1,1,2,45deg);
+    image-rendering: pixelated;
+    padding: 2px;
+    border: 3px white dashed;
+}
+#weedgirlfull{
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    margin: auto;
+    z-index: 2;
+}
+#overlay {
+    background-color: rgba(0, 0, 0, 0.60);
+    position:fixed;
+    left:0;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index: 1;
+  }
